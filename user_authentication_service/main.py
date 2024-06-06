@@ -4,8 +4,8 @@ Main file
 """
 from auth import Auth
 
-email = 'bob@bob.com'
-password = 'MyPwdOfBob'
+email = 'mee@bob.com'
+password = 'MyPwdOfmee'
 auth = Auth()
 
 user = auth.register_user(email, password)
